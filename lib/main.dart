@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_firebase_chat_app/common/routes/pages.dart';
 import 'package:flutter_firebase_chat_app/home_screen.dart';
 import 'package:get/get.dart';
 
@@ -16,8 +17,11 @@ class ChatApp extends StatefulWidget {
 class _ChatAppState extends State<ChatApp> {
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-      home: HomeScreen(),
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: AppPages.INITIAL,
+      getPages: AppPages.routes,
+      // home: HomeScreen(),
     );
   }
 }
