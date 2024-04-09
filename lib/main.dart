@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_firebase_chat_app/common/routes/pages.dart';
 import 'package:get/get.dart';
 
-void main(){
+void main() {
   runApp(const ChatApp());
 }
 
@@ -20,7 +20,6 @@ class _ChatAppState extends State<ChatApp> {
       debugShowCheckedModeBanner: false,
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
-      // home: HomeScreen(),
     );
   }
 }
