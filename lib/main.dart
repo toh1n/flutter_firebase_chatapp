@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_chat_app/common/routes/pages.dart';
-import 'package:flutter_firebase_chat_app/home_screen.dart';
 import 'package:get/get.dart';
 
 void main(){
