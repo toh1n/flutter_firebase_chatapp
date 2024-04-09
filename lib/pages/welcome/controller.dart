@@ -3,4 +3,7 @@ import 'package:get/get.dart';
 
 class WelcomeController extends GetxController{
   final state = WelcomeState();
+  changePage(int index) async {
+    state.index.value = index;
+  }
 }

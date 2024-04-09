@@ -9,7 +9,7 @@ class AppPages {
   static final List<GetPage> routes = [
     GetPage(
         name: AppRoutes.INITIAL,
-        page: () => WelcomePage(),
+        page: () => const WelcomePage(),
         binding: WelcomeBinding(),
     ),
   ];
