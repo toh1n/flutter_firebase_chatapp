@@ -41,6 +41,7 @@ dependencies:
   dots_indicator: ^3.0.0
   shared_preferences: ^2.2.2
   google_sign_in: ^6.2.1
+  cloud_firestore: ^4.16.1
 
 dev_dependencies:
   flutter_test:
